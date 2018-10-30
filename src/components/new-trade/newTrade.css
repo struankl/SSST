@@ -1,0 +1,35 @@
+@import "../../app.css";
+
+.new-trade-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  input {
+    background-color: rgba(0,0,0, 0.04)
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+@media (--small) {
+  .new-trade-form {
+    flex-direction: column;
+
+    input {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (--large) {
+  .new-trade-form {
+    flex-direction: row;
+
+    input {
+      margin-right: 10px;
+    }
+  }
+}
