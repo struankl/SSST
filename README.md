@@ -1,4 +1,4 @@
-#JP Morgan Super Simple Stock Market Tracker
+# JP Morgan Super Simple Stock Market Tracker
 
 Assumptions:
 * All non integer values used to 4dp
@@ -7,6 +7,8 @@ Assumptions:
 Enhancements:
 * Testing is lacking - add additional tests with jest/enzyme
 * Additional validation should be added  
+
+Hosted version [here](https://struankl.github.io/)
 
 ## Available Scripts
 
